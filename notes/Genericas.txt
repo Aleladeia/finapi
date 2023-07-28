@@ -1,0 +1,4 @@
+ id - uuid (universal unique identifier)
+    para usalo devemos instalar a dependencia uuid
+
+Os ids geralmente são definidos com o uso da biblioteca uuid

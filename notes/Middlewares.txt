@@ -1,0 +1,14 @@
+O que são os middlewares (intermediários)??.
+
+aquilo que está no meio, função que fica entre a request e o response.
+
+usamos eles para validar um token, verificar tipos de usuários e entre outras funções.
+
+existem duas formas de usar o nosso middleware.
+
+primeiro com app.use(nome do middleware), dessa forma o middleware vai valer para 
+todas as requisições abaixo dele
+
+a segunda forma é passando ele entre a rota e o request,response como no exemplo abaixo
+app.get("/statement", nomeDoMiddleware, (request, response))
+podem ser passados quantos middleware quiser.
